@@ -1,0 +1,23 @@
+[
+    {
+      "level": 1,
+      "description": "You are just starting out and are still learning the basics of surfing. You are probably still getting used to paddling, standing up on the board, and turning."
+    },
+    {
+      "level": 2,
+      "description": "You have a good understanding of the basics and are starting to progress to more advanced techniques. You are probably starting to ride smaller, steeper waves and are learning how to do turns and cutbacks."
+    },
+    {
+      "level": 3,
+      "description": "You are an intermediate surfer and are comfortable surfing a variety of waves and conditions. You have a good understanding of wave dynamics and are able to ride different types of boards."
+    },
+    {
+      "level": 4,
+      "description": "You are an advanced surfer and are comfortable surfing challenging waves and conditions. You have a strong understanding of wave dynamics and are able to ride a variety of boards with precision and style."
+    },
+    {
+      "level": 5,
+      "description": "You are a highly skilled surfer and are comfortable surfing any wave and condition. You have mastered the art of surfing and are able to ride any type of board with ease and grace."
+    }
+  ]
+  

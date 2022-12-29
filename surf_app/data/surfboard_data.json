@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Longboard",
+      "description": "A longboard is a type of surfboard that is typically 9 feet or longer in length. It is great for beginners and for riding long, slow-breaking waves."
+    },
+    {
+      "name": "Shortboard",
+      "description": "A shortboard is a type of surfboard that is typically 6-8 feet in length. It is designed for more advanced surfers and for riding fast, steep waves."
+    },
+    {
+      "name": "Fish",
+      "description": "A fish is a type of surfboard that is typically 5-7 feet in length. It is great for intermediate surfers and for riding small, fun waves."
+    }
+  ]  

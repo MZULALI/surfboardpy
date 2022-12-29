@@ -1,0 +1,44 @@
+<!-- surf_recommender/templates/index.html -->
+
+<html>
+  <head>
+    <title>Surf Recommendations</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+  </head>
+  <body>
+    <h1>Surf Recommendations</h1>
+    <p>Surfboard recommendation: {{ surfboard_recommendation }}</p>
+    <p>Skill level recommendation: {{ skill_level_recommendation }}</p>
+    <h2>Tide data:</h2>
+    <ul>
+      {% for day in tides_data %}
+      <li>{{ day.time }}: {{ day.tides.current.type }}</li>
+      {% endfor %}
+    </ul>
+
+    <table>
+        <tr>
+          <th>Beach</th>
+          <th>Location</th>
+        </tr>
+        {% for beach in beach_data %}
+        <tr>
+          <td>{{ beach.name }}</td>
+          <td>{{ beach.location }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      
+      <table>
+        <tr>
+          <th>Surfboard</th>
+          <th>Description</th>
+        </tr>
+        {% for surfboard in surfboard_data %}
+        <tr>
+          <td>{{ surfboard.name }}</td>
+          <td>{{ surfboard.description }}</td
+        {% endfor %}
+      
+  </body>
+</html>
